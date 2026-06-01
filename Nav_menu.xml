@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/calculatorFragment" android:title="Calc" android:icon="@android:drawable/ic_menu_edit"/>
+    <item android:id="@+id/calendarFragment" android:title="Cal" android:icon="@android:drawable/ic_menu_month"/>
+    <item android:id="@+id/alarmFragment" android:title="Alarm" android:icon="@android:drawable/ic_menu_recent_history"/>
+    <item android:id="@+id/chatbotFragment" android:title="AI" android:icon="@android:drawable/ic_menu_send"/>
+    <item android:id="@+id/notesListFragment" android:title="Notes" android:icon="@android:drawable/ic_menu_edit"/>
+    <item android:id="@+id/habitsFragment" android:title="Habits" android:icon="@android:drawable/ic_menu_today"/>
+    <item android:id="@+id/tasksFragment" android:title="Tasks" android:icon="@android:drawable/ic_menu_view"/>
+</menu>
