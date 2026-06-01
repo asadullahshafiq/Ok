@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@id/calculatorFragment">
+    <fragment android:id="@+id/calculatorFragment"
+        android:name="com.example.multitoolapp.calculator.CalculatorFragment"
+        android:label="Calculator" />
+    <fragment android:id="@+id/calendarFragment"
+        android:name="com.example.multitoolapp.calendar.CalendarFragment"
+        android:label="Calendar" />
+    <fragment android:id="@+id/alarmFragment"
+        android:name="com.example.multitoolapp.alarm.AlarmFragment"
+        android:label="Alarm" />
+    <fragment android:id="@+id/chatbotFragment"
+        android:name="com.example.multitoolapp.chatbot.ChatbotFragment"
+        android:label="Chatbot" />
+    <fragment android:id="@+id/notesListFragment"
+        android:name="com.example.multitoolapp.notes.NotesListFragment"
+        android:label="Notes" />
+    <fragment android:id="@+id/habitsFragment"
+        android:name="com.example.multitoolapp.habits.HabitsFragment"
+        android:label="Habits" />
+    <fragment android:id="@+id/tasksFragment"
+        android:name="com.example.multitoolapp.tasks.TasksFragment"
+        android:label="Tasks" />
+</navigation>
